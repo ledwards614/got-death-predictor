@@ -1,6 +1,17 @@
 html{
-    font-family: algerian;
+    font-family: 'Game of Thrones';
+    
 }
+@font-face {
+    font-family: 'Game of Thrones';
+    src: url('Game\ of\ Thrones.ttf');
+    src: url('Game\ of\ Thrones.ttf') format('embedded-opentype'),
+        url('Game\ of\ Thrones.ttf') format('woff'),
+        url('Game\ of\ Thrones.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
  background-image: url(https://images.unsplash.com/photo-1448953663060-e7058b1bff12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
 
@@ -11,11 +22,16 @@ color: white;
 }
 
 .predictor {
-    font-size: 36px;
+    font-size: 56px;
     text-align: center;
+    color: #7F1616;
+  text-shadow: 10px;
+    font-weight: bolder;
+    padding-bottom: 6px;
+    /* background-color: rgba(60,60,60, 0.5)     */
 }
 .container {
-    margin-top: 7rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +62,9 @@ button {
 }
 h2{
     text-align: center;
+    font-size: 33px;
 }
 h1{
     text-align: center;
+    font-size: 38px;
 }
